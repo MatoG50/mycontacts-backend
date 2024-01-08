@@ -30,7 +30,7 @@ const createContact = asyncHandler(async (req, res) => {
   res.status(201).json(contact);
 });
 
-// @desc Create contact
+// @desc GET contact
 // @route GET /api/contacts/:id
 // @access private
 
